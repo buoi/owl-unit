@@ -1,4 +1,4 @@
-
+@prefix ex: <https://w3id.org/OWLunit/examples/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-Luigi foaf:interest Basketball .
+ex:Luigi foaf:interest ex:Basketball .
