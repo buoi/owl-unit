@@ -8,5 +8,5 @@ ex:artistcq.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasSPARQLUnitTest "SELECT ?name {?artist our:hasName ?name}" ;
 	owlunit:hasInputData ex:artistdata.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
-	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"name\" ] } ,  \"results\": {  \"bindings\": [ {  \"name\": {  \"type\":  \"uri\" ,  \"value\":  \"The Benny Goodman Sextet" } } ] } }"
+	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"name\" ] } ,  \"results\": {  \"bindings\": [ {  \"name\": {  \"type\":  \"uri\" ,  \"value\":  \"The Benny Goodman Sextet" } } ] } }" ;
   owlunit:testsOntology our: .
