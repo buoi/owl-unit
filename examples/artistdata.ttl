@@ -1,4 +1,4 @@
 @prefix our: <https://www.unibo.it/ontologies/metadata/> .
 @prefix artist: <https://www.unibo.it/ontologies/metadata/resource/Artist/> .
 
-artist:82eb0cc2-84be-44b2-8b5d-543e3a1a4003 rdf:type our:Band.
+artist:82eb0cc2-84be-44b2-8b5d-543e3a1a4003 rdf:type our:Band .
