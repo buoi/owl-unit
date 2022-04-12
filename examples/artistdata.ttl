@@ -1,11 +1,4 @@
-_:BfileX3AX2FsparqlX2EanythingX2FdataX2FmusicbrainzX2FartistX2FartistX5F3d672385X2D79a6X2D4aa6X2D94b8X2Daf59a0447db1X5F1X2EjsonX23X2FartistX2FaliasX252DlistX2FX5F2 <https://www.unibo.it/ontologies/metadata/hasSortName> "Benny Goodman & His Sextet" .
-_:BfileX3AX2FsparqlX2EanythingX2FdataX2FmusicbrainzX2FartistX2FartistX5F3d672385X2D79a6X2D4aa6X2D94b8X2Daf59a0447db1X5F1X2EjsonX23X2FartistX2FaliasX252DlistX2FX5F2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.unibo.it/ontologies/metadata/Alias> .
-_:BfileX3AX2FsparqlX2EanythingX2FdataX2FmusicbrainzX2FartistX2FartistX5F3d672385X2D79a6X2D4aa6X2D94b8X2Daf59a0447db1X5F1X2EjsonX23X2FartistX2FaliasX252DlistX2FX5F5 <https://www.unibo.it/ontologies/metadata/hasSortName> "Benny Goodman and his Sextet" .
-_:BfileX3AX2FsparqlX2EanythingX2FdataX2FmusicbrainzX2FartistX2FartistX5F3d672385X2D79a6X2D4aa6X2D94b8X2Daf59a0447db1X5F1X2EjsonX23X2FartistX2FaliasX252DlistX2FX5F5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.unibo.it/ontologies/metadata/Alias> .
-_:BfileX3AX2FsparqlX2EanythingX2FdataX2FmusicbrainzX2FartistX2FartistX5F3d672385X2D79a6X2D4aa6X2D94b8X2Daf59a0447db1X5F1X2EjsonX23X2FartistX2FaliasX252DlistX2FX5F3 <https://www.unibo.it/ontologies/metadata/hasSortName> "Benny Goodman Sextet" .
-_:BfileX3AX2FsparqlX2EanythingX2FdataX2FmusicbrainzX2FartistX2FartistX5F3d672385X2D79a6X2D4aa6X2D94b8X2Daf59a0447db1X5F1X2EjsonX23X2FartistX2FaliasX252DlistX2FX5F3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.unibo.it/ontologies/metadata/Alias> .
-<https://www.unibo.it/ontologies/metadata/resource/Artist/82eb0cc2-84be-44b2-8b5d-543e3a1a4003> <https://www.unibo.it/ontologies/metadata/hasURL> "https://genius.com/artists/Benny-goodman-sextet" .
-<https://www.unibo.it/ontologies/metadata/resource/Artist/82eb0cc2-84be-44b2-8b5d-543e3a1a4003> <https://www.unibo.it/ontologies/metadata/hasURL> "https://www.discogs.com/artist/311730" .
-<https://www.unibo.it/ontologies/metadata/resource/Artist/82eb0cc2-84be-44b2-8b5d-543e3a1a4003> <https://www.unibo.it/ontologies/metadata/hasAlias> _:BfileX3AX2FsparqlX2EanythingX2FdataX2FmusicbrainzX2FartistX2FartistX5F3d672385X2D79a6X2D4aa6X2D94b8X2Daf59a0447db1X5F1X2EjsonX23X2FartistX2FaliasX252DlistX2FX5F3 .
-<https://www.unibo.it/ontologies/metadata/resource/Artist/82eb0cc2-84be-44b2-8b5d-543e3a1a4003> <https://www.unibo.it/ontologies/metadata/hasAlias> _:BfileX3AX2FsparqlX2EanythingX2FdataX2FmusicbrainzX2FartistX2FartistX5F3d672385X2D79a6X2D4aa6X2D94b8X2Daf59a0447db1X5F1X2EjsonX23X2FartistX2FaliasX252DlistX2FX5F1 .
-<https://www.unibo.it/ontologies/metadata/resource/Artist/82eb0cc2-84be-44b2-8b5d-543e3a1a4003> <https://www.unibo.it/ontologies/metadata/hasName> "The Benny Goodman Sextet" .
+@prefix our: <https://www.unibo.it/ontologies/metadata/> .
+@prefix artist: <https://www.unibo.it/ontologies/metadata/resource/Artist/> .
+
+artist:82eb0cc2-84be-44b2-8b5d-543e3a1a4003 our:hasName "The Benny Goodman Sextet" .
