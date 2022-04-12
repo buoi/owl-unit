@@ -4,7 +4,7 @@
 
 ex:artistcq.ttl a owlunit:CompetencyQuestionVerification ;
  	owlunit:hasCompetencyQuestion "What is the name of the Artist?" ;
- 	owlunit:hasSPARQLUnitTest "SELECT ?name {?artist :hasName ?name}" ;
+ 	owlunit:hasSPARQLUnitTest "SELECT ?name {?artist <https://www.unibo.it/ontologies/metadata/hasName> ?name}" ;
 	owlunit:hasInputData ex:artistdata.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
 	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"name\" ] } ,  \"results\": {  \"bindings\": [ {  \"name\": {  \"type\":  \"uri\" ,  \"value\":  \"The Benny Goodman Sextet" } } ] } }".
